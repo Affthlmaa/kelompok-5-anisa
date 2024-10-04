@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <title>Document</title>
+    <style>
+      
+    .overlay-dark {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: black;
+      z-index: 0;
+      overflow: hidden;
+
+    }
+    .gambar{
+      object-fit: cover;
+            opacity: 0.4;
+    }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">PT.aleyana</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample03">
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeri.html">Galeri</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--carousel-->
+      <link rel="stylesheet" href="css/carousel.css"/>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/c.webp" style="width: 100%;" alt="">
+            <div class="container">
+              <div class="carousel-caption text-white">
+                <h1>welcome to</h1>
+                <p>doing work with fun</p>
+                <p>menciptakan lingkungan kerja yang menyenangkan</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Beranda</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/2.jpg" style="width: 100%" alt="">
+            <div class="container">
+              <div class="carousel-caption text-dark">
+                <h1>love your work</h1>
+                <p>mencintai pekerjaaan yang di lakukan, melakukan pekerjaa dengan baik secara kualitas maupun kuantitas produktivitas kerja.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Tentang Kami</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+           <img src="img/b.webp" style="width: 100%" alt="">
+            <div class="container">
+              <div class="carousel-caption text-white">
+                <h1>Galeri kerjasama innovation and creativity</h1>
+                <p>komitmen perusahaan dan seluruh keryawan dalam menciptakan inovasi dan kreativitas untuk kemajuan perusahaan</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">klik</span>
+        </button>
+      </div>
+      <!--Akhir Carousel-->
+
+      <!--Galery-->
+
+      <section class="galery">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col">
+              <h1>My Galery</h1>
+              <hr>
+            </div> <!--judul-->
+          </div>
+          <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+        
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/a.png"  alt="gambar galery" height="250">
+                    <div class="card-body">
+                      <p class="card-text">PERMINTAAN SAMPEL PRODUK</p>
+                      <p>PT. kosmetik memberikan pilihan formula yang terbaik sesuai permintaan pelanggan beberapa pilihan formula tersebut adalah formula standar dari PT kosme dan firmula khusus yang di susuaikan dengan produk acuan pelanggan.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/t.png" alt="gambar galery" height="250">
+                    <div class="card-body">
+                      <p class="card-text">KONSULTASI KONSEP PRODUK</p>
+                      <p>PT. kosmetik menyediakan tim riset ahli di didangnya yang dapat membantu dalam menghasilkan ide dan konsep baru atau mengembangkan merek anda. marketing kami yang inovatif juga dapat memberikan saran untuk menyesuaikan dengan permintaan pelanggan dan produk yang sedang tren di pasaran.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/ab.png" alt="gambar galery" height="250">
+                    <div class="card-body">
+                      <p class="card-text">DESAIN LOGO DAN KEMASAN</p>
+                      <P>PT.kosmetik memiliki tim design yang kreatif dan inovatif dalam membantu mewujudkan desain produk yang di ingginkan oleh pelanggan. layanan desain untuk logo dan keamanan tidak berbayar atau gratis. logo merek merupakan salah satu syarat untuk mendaftar hak paten merk.</P>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/f.png" alt="gambar galery" height="250">
+                    <div class="card-body">
+                      <p class="card-text">TUJUAN KAMI.</p>
+                      <P>menjadi perusahaan yang terpercaya dalam menghasilkan produk kosmetik yang berkualitas dan berperan dalam meningkat mutu kesehatan dan kesejahteraan bangsa.</P>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/c.webp" alt="gambar galery" height="250">
+                    <div class="card-body">
+                      <p class="card-text">INFORMASI TENTANG KAMI.</p>
+                      <P>memanfaatkan dan mengembangkan sumber daya produk kecantikan secara bertanggung jawab.meningkatkan derajat kehidupan masyarakat di didang kecantikan dan kesehatan.mengkasilkan produk kosmetik berkualitas tinggi.melakukan pengembangan produk dan kualitas produk secara berkesinambungan.</P>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/alat.png" alt="gambar galery" height="250">
+                    <div class="card-body">
+                      <p class="card-text">MESIN & PERALATAN CANGGIH</p>
+                      <P>memiliki mesin pengolah yang lengkap dengan teknologi canggih dan retkomputerisasi dapat mengolah dalam kapasitas tinggi dan menghasilkan produk yang berkualitas.</P>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/u.png" alt="gambar galery" height="250">
+                    <div class="card-body">
+                      <p class="card-text">kONTROL KUALITAS YANG KETAT.</p>
+                      <P>memiliki tim QC khusus yang bertugas membantu seluruh proses produksi dan mematikan seluruh proses di lakukan sesuai dengan standar cara pembuatan kosmetik dengan baik.</P>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/h.png" alt="gambar galery" height="250">
+                    <div class="card-body">
+                      <p class="card-text">GUDANG PENYIMPANAN KHUSUS</p>
+                      <P>kami memiliki gudang peyimpanan yang luar dengan penataan khusus di sesuaikan dengan tujuan penyimpanan barang terdiri dari 3 tatanan khusus yaitu untuk bahan baku, bahan kemas, dan gudang produk.</P>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/i.png">
+                    <div class="card-body">
+                      <p class="card-text">TIM RISET PROFESIONAL</p>
+                      <P>memikili tim riset ahli dan profesional di indutri kimia untuk membuat produk kosmetik yang inovatif. menjamin keamanan produk yang di hasilkan dengan uji laboraturium sesuai dengan standart.</P>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Akhir Galery-->
+
+        <!--Features-->
+        <!--<div class="container px-4 py-5" id="custom-cards">-->
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">&copy;aelyana</p>
+      </footer>
+      <script src="js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+@media (min-width: 992px) 
+
+  
+  .rounded-lg-3 { border-radius: .3rem; }
+}
+<link rel="stylesheet" href="css/bootstrap.css">
+<!-- Custom styles for this template -->
+<link href="css/carousel.css" rel="stylesheet">
+   
